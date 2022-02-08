@@ -1,0 +1,224 @@
+@import "../libs/fontello/css/fontello.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 12px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  background: #EE4248;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  padding: 22px 0;
+  border-bottom: 2px solid gray;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  column-gap: 50px;
+  list-style-type: none;
+  align-items: center;
+}
+.header__link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(31, 46, 53, 0.8);
+}
+.header__icons {
+  display: flex;
+  column-gap: 20px;
+}
+
+.info {
+  padding: 110px 0 160px;
+}
+.info__row {
+  display: flex;
+  column-gap: 20px;
+}
+.info__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 133.69%;
+  color: #1F2E35;
+  margin-bottom: 24px;
+}
+.info__title-red {
+  color: red;
+}
+.info__text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #30444E;
+  margin-bottom: 36px;
+}
+
+.dsi {
+  padding: 0 0 63px;
+  background: #F7F7F7;
+}
+.dsi__content {
+  padding-top: 57px;
+}
+.dsi__row {
+  display: flex;
+  column-gap: 90px;
+}
+.dsi__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1F2E35;
+  margin-bottom: 24px;
+}
+.dsi__title-red {
+  color: red;
+}
+.dsi__subtitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+}
+.dsi__subtitle-red {
+  color: red;
+}
+.dsi__subtitle_top {
+  margin-bottom: 24px;
+}
+
+.product {
+  padding: 116px 0;
+}
+.product__row {
+  display: flex;
+  column-gap: 53px;
+}
+.product__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  text-align: center;
+  color: #1F2E35;
+  margin-bottom: 57px;
+}
+.product__content-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #EE4248;
+  margin: 16px 0;
+}
+.product__content-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+  margin: 15px 0;
+}
+
+.contact {
+  padding: 36px 0 13px;
+}
+.contact__row {
+  display: flex;
+  column-gap: 47px;
+  align-items: flex-end;
+}
+.contact__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  margin: 20px 0 8px;
+}
+.contact__text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+.contact__phone-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  margin-bottom: 15px;
+}
+.contact__phone-menu {
+  list-style-type: none;
+}
+.contact__phone-list {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+
+.footer {
+  padding: 22px 0;
+  background: #EE4248;
+}
+.footer__text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 22px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
